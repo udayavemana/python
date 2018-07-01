@@ -1,0 +1,7 @@
+http://www.techoism.com/install-python-2-7-10-on-centosrhel-76/
+yum install gcc
+cd /opt wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz   ###https://www.python.org/ftp/python/
+tar xzf Python-3.5.1.tgz
+cd Python-3.5.1
+./configure
+make altinstall
