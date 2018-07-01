@@ -5,3 +5,6 @@ tar xzf Python-3.5.1.tgz
 cd Python-3.5.1
 ./configure
 make 
+PIP INSTALL
+sudo curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
